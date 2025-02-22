@@ -1,4 +1,4 @@
-module github.com/johannesfloriangeiger/go-aurora-dsql-lambda/dsl_signer
+module github.com/johannesfloriangeiger/go-aurora-dsql-lambda/dsql_signer
 
 go 1.23.5
 
