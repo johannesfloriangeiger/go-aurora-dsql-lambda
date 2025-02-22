@@ -1,4 +1,4 @@
-module github.com/johannesfloriangeiger/go-aurora-dsql-lambda/dsl-signer
+module github.com/johannesfloriangeiger/go-aurora-dsql-lambda/dsl_signer
 
 go 1.23.5
 
@@ -22,7 +22,7 @@ require (
 	github.com/aws/smithy-go v1.22.3 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/stretchr/testify v1.8.2 // indirect
-	golang.org/x/crypto v0.31.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	github.com/stretchr/testify v1.10.0 // indirect
+	golang.org/x/crypto v0.34.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 )

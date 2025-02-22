@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-func getConnection(ctx context.Context, username string, region string, clusterEndpoint string) (*pgx.Conn, error) {
+func GetConnection(ctx context.Context, username string, region string, clusterEndpoint string) (*pgx.Conn, error) {
 	cfg, err := config.LoadDefaultConfig(ctx)
 	if err != nil {
 		return nil, err
