@@ -1,4 +1,4 @@
-package dsl_signer
+package dsql_signer
 
 import (
 	"context"
